@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "vector3dcalc"
+version = "0.0.1"
+description = "Calculadora gráfica sencilla de vectores tridimensionales"
+authors = ["Daniel Pérez Ruiz <danielsp13>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poe.tasks]
+install = "poetry install"
